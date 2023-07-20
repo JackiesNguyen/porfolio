@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
   mobile,
   backend,
@@ -6,6 +7,7 @@ import {
   javascript,
   typescript,
   html,
+  hfilm,
   css,
   reactjs,
   redux,
@@ -14,7 +16,9 @@ import {
   mongodb,
   git,
   figma,
+  mui,
   docker,
+  mobifone,
   meta,
   starbucks,
   tesla,
@@ -23,6 +27,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  carforyou,
+  ncc,
 } from "../assets";
 
 export const navLinks = [
@@ -89,16 +95,13 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Material UI",
+    icon: mui,
   },
+
   {
     name: "MongoDB",
     icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
   },
   {
     name: "git",
@@ -108,63 +111,32 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Intern frontend Developer",
+    company_name: "NCC ASIAN",
+    icon: ncc,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "Sep 2022 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing web applications using React.js and other related technologies.",
+      "Using typescript language to develop two web applications, todo-app and employee management, combining redux, redux-toolkit, using libraries like mateialUi, react-hook-form, formik and yup...",
+      "About the employee management application, the company provides an api to handle on the interface",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Intern fullstack Developer",
+    company_name: "Mobifone",
+    icon: mobifone,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2023 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Using python with odoo framework to write an internal employee management app.",
+      "Using react.js to complete figma designs by design.",
+      "Collaborate with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Participating in the actual project with the assigned task of writing an interface for the company and cms in the application 'Sổ Tay Đoàn Viên Mobifone'",
     ],
   },
 ];
@@ -198,67 +170,95 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "CarForYou",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A web interface designed to buy and sell cars. The platform offers a user-friendly experience that allows users to browse through a wide selection of vehicles and easily find their dream car.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "html",
+        color: "orange-text-gradient",
       },
       {
         name: "scss",
         color: "pink-text-gradient",
       },
+      {
+        name: "javscript",
+        color: "green-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: carforyou,
+    source_code_link: "https://github.com/vanutcho123/CarForYou",
+    link_demo: "https://vanutcho123.github.io/CarForYou/",
   },
   {
-    name: "Trip Guide",
+    name: "hFilm",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a movie streaming website built with ReactJS, Redux, Redux Toolkit, and the TMDB API. Immerse yourself in an entertainment world with a vast collection of movies spanning various genres. The platform offers a seamless user experience, making it easy to search for, discover, and watch your favorite films.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "redux",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "redux-toolkit",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "tmdb Api",
         color: "pink-text-gradient",
       },
     ],
+    image: hfilm,
+    source_code_link: "https://github.com/vanutcho123/hFilm",
+    link_demo: "https://h-film-five.vercel.app/",
+  },
+  {
+    name: "H2SHOP",
+    description:
+      "This is an online watch store, featuring a wide range of stylish and high-quality watches. Explore our collection of elegant timepieces from renowned brands, designed to suit every style and occasion. Enjoy a seamless shopping experience, with easy navigation, secure payment options, and fast delivery. Find the perfect watch that complements your unique taste and adds a touch of sophistication to your wrist.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "boostrap 5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ExpressJs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+    ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/vanutcho123/mern-H2SHOP",
+    link_demo: "",
   },
 ];
 
