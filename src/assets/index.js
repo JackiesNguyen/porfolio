@@ -29,15 +29,20 @@ import starbucks from "./company/starbucks.png";
 import mobifone from "./company/mobifone.png";
 import ncc from "./company/ncc.png";
 import tesla from "./company/tesla.png";
+import h2shop from "./h2shop.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import hfilm from "./hfilm.png";
+import travelcaps from "./travelcaps.png";
+import findhome from "./findhome.png";
 
 export {
   logo,
+  travelcaps,
   backend,
+  findhome,
   creator,
   mobile,
   web,
@@ -51,6 +56,7 @@ export {
   ncc,
   docker,
   figma,
+  h2shop,
   git,
   html,
   javascript,

@@ -11,15 +11,18 @@ import {
   css,
   reactjs,
   redux,
+  findhome,
   tailwind,
   nodejs,
   mongodb,
+  h2shop,
   git,
   figma,
   mui,
   docker,
   mobifone,
   meta,
+  travelcaps,
   starbucks,
   tesla,
   shopify,
@@ -256,8 +259,102 @@ const projects = [
         color: "green-text-gradient",
       },
     ],
-    image: tripguide,
+    image: h2shop,
     source_code_link: "https://github.com/vanutcho123/mern-H2SHOP",
+    link_demo: "",
+  },
+  {
+    name: "TRAVELCAPS",
+    description:
+      "This is TravelCaps, your gateway to exploring the breathtaking beauty of the world. Immerse yourself in a diverse array of captivating destinations, from lush forests and pristine beaches to vibrant cities. Let us inspire your wanderlust with unforgettable travel experiences, expert tips, and curated itineraries, ensuring every journey is an adventure of a lifetime.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "boostrap 5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "material UI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NodeJS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "ExpressJs",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MongoDb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "google Api",
+        color: "green-text-gradient",
+      },
+    ],
+    image: travelcaps,
+    source_code_link: "https://github.com/C1SE-52/IntelligentTravelGuide",
+    link_demo: "",
+  },
+  {
+    name: "FINDHOME",
+    description:
+      "Explore your dream property at Findhome - the ultimate destination for real estate. Discover a wide range of listings, from cozy apartments to luxurious villas, and let our expert agents guide you to your perfect home. Start your real estate journey with Findhome today.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "boostrap 5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Material UI",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Java",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Spring Boot",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "MySql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Province Open API",
+        color: "green-text-gradient",
+      },
+    ],
+    image: findhome,
+    source_code_link: "https://github.com/C2SE14/Findhome_project",
     link_demo: "",
   },
 ];
