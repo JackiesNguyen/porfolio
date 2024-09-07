@@ -1,4 +1,3 @@
-import { color } from "framer-motion";
 import {
   mobile,
   backend,
@@ -32,6 +31,9 @@ import {
   threejs,
   carforyou,
   ncc,
+  sugnanuma,
+  nextjs,
+  angular,
 } from "../assets";
 
 export const navLinks = [
@@ -90,6 +92,15 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Angular",
+    icon: angular,
+  },
+
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -118,28 +129,48 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Intern frontend Developer",
+    title: "Frontend Developer",
     company_name: "NCC ASIAN",
     icon: ncc,
     iconBg: "#383E56",
-    date: "Sep 2022 - Nov 2022",
+    date: "August 2022 - November 2022",
     points: [
-      "Developing web applications using React.js and other related technologies.",
-      "Using typescript language to develop two web applications, todo-app and employee management, combining redux, redux-toolkit, using libraries like mateialUi, react-hook-form, formik and yup...",
-      "About the employee management application, the company provides an api to handle on the interface",
+      "Assisted in developing and maintaining web applications using HTML, CSS, JavaScript, and React, focusing on building responsive and user-friendly interfaces.",
+      "Supported the team in reviewing and debugging frontend code.",
+      "Worked closely with senior developers to gain insights into best practices in web development.",
+      "Gained hands-on experience with version control systems like Git, and participated in team sprints and code reviews.",
+      "Assisted in creating wireframes.",
     ],
   },
   {
-    title: "Intern fullstack Developer",
-    company_name: "Mobifone",
+    title: "Frontend Developer",
+    company_name: "MobifoneIT",
     icon: mobifone,
     iconBg: "#E6DEDD",
-    date: "Feb 2023 - May 2023",
+    date: "March 2023 - July 2023",
     points: [
-      "Using python with odoo framework to write an internal employee management app.",
-      "Using react.js to complete figma designs by design.",
-      "Collaborate with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Participating in the actual project with the assigned task of writing an interface for the company and cms in the application 'Sổ Tay Đoàn Viên Mobifone'",
+      "Developed and customized web applications using the Odoo framework.",
+      "Utilized HTML, CSS, JavaScript, and jQuery for building responsive and dynamic user interfaces for Odoo applications.",
+      "Integrated Odoo backend functionality with frontend components using XML-RPC API.",
+      "Collaborated with backend developers, project managers, and designers to deliver fully functional Odoo-based solutions, addressing both technical and client requirements.",
+      "Stayed up-to-date with Odoo releases and new features to provide cutting-edge solutions and customizations to clients.",
+    ],
+  },
+  {
+    title: "Frontend Developer",
+    company_name: "Motech-Suganuma group",
+    icon: sugnanuma,
+    iconBg: "#E6DEDD",
+    date: "August 2023 to present",
+    points: [
+      "Built and maintained web applications using HTML, CSS, JavaScript, TypeScript, ReactJS, NextJS, Angular, and VueJS.",
+      "Assessed UX and UI designs for technical feasibility.",
+      "Implemented a responsive, mobile-first approach and strategy.",
+      "Possess knowledge and experience using RESTful APIs.",
+      "Created wireframes to plan and visualize web application layouts and features.",
+      "Worked effectively with designers and developers, participated in team meetings, and contributed to project goals.",
+      "Improved application performance and resolved issues to enhance user experience.",
+      "Committed to continuous learning by updating skills and knowledge with industry trends and best practices.",
     ],
   },
 ];

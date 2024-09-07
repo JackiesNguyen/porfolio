@@ -47,15 +47,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a frontend developer passionate about creating beautiful and
-        interactive user interfaces for web applications. I'm a student with a
-        creative vision, constantly exploring new technologies and seeking
-        innovative solutions. Proficient in HTML, CSS, and JavaScript, along
-        with popular libraries like ReactJs, I focus on delivering seamless user
-        experiences. Continuous learning and staying updated with industry
-        trends are my priorities, as I aim to become a skilled and accomplished
-        frontend developer. I'm excited to contribute my skills to exciting
-        projects and grow as a professional in this field.
+        I'm a frontend developer with two years of experience, passionate about
+        crafting beautiful and interactive user interfaces for web applications.
+        As a creative thinker with a keen eye for design, I’m always exploring
+        new technologies and striving for innovative solutions. Proficient in
+        HTML, CSS, and JavaScript, along with popular frameworks like ReactJS, I
+        focus on delivering seamless, user-friendly experiences. I prioritize
+        continuous learning and staying up-to-date with industry trends, aiming
+        to grow as a skilled and accomplished frontend developer. I’m excited to
+        contribute my expertise to meaningful projects and further develop my
+        career in this dynamic field.
       </motion.p>
 
       {/* <div className="mt-20 flex flex-wrap gap-10">

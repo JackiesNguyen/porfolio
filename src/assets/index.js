@@ -22,6 +22,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import mui from "./tech/mui.png";
+import nextjs from "./tech/next-js.svg";
+import angular from "./tech/angular.jpg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,10 +39,12 @@ import tripguide from "./tripguide.png";
 import hfilm from "./hfilm.png";
 import travelcaps from "./travelcaps.png";
 import findhome from "./findhome.png";
+import sugnanuma from "./company/sugnanuma.png";
 
 export {
   logo,
   travelcaps,
+  angular,
   backend,
   findhome,
   creator,
@@ -55,8 +59,10 @@ export {
   css,
   ncc,
   docker,
+  nextjs,
   figma,
   h2shop,
+  sugnanuma,
   git,
   html,
   javascript,
